@@ -1,0 +1,46 @@
+.centerContainer {
+    background-color: ghostwhite;
+    margin-top: 7%;
+    margin-left:40px;
+    margin-right:40px;
+    height:1300px;
+    width:95vw;
+}
+.centerContainer h1{
+    font-weight: bold;
+    color:black;
+    padding-top: 20px;
+    font-size: 44;
+}
+.line-1{
+    height: 300px;
+    width: 820px;
+    float:left;
+    padding-left: 80px;
+    font-size: 22;
+    text-indent:30px;
+}
+.line-2{
+    height: 300px;
+    width: 820px;
+    float:right;
+    padding-left: 80px;
+    font-size: 22;
+    text-indent:30px;
+}
+.line-3{
+    height: 300px;
+    width: 820px;
+    float:left;
+    padding-left: 80px;
+    font-size: 22;
+    text-indent:30px;
+}
+.line-4{
+    height: 300px;
+    width: 820px;
+    float:right;
+    padding-left: 80px;
+    font-size: 22;
+    text-indent:30px;
+}

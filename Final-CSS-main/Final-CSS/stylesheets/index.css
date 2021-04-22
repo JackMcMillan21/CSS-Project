@@ -1,24 +1,13 @@
-#profile-pic {
-    height: 250px;
-    width: auto;
-    transition-delay: 0.3s;
-    transition-duration: 1.5s;
-}
-
-#profile-pic:hover {
-    border-radius: 50%;
-
-}
-
 .second-container {
     background-color: ghostwhite;
     margin-top: 3%;
-    margin-left:40px;
+    margin-left:20px;
     margin-right:40px;
     height:700px;
     width:95vw;
     display:flex;
     justify-content: space-evenly;
+    padding-left:15px;
 }
 
 .info-portion{
@@ -43,13 +32,36 @@ div p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ghostwhite;
-    margin-top: 5%;
-    margin-left:40px;
-    margin-right:40px;
-    height:300px;
-    width:95vw;
+    background:url(../images/header.png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height:680px;
+    width:1600px;
+    margin-left:-10px;
 }
+#centerContainerText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    background-color: rgba(130, 130, 130, 0.5);
+    animation: type 4s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Inconsolata', monospace;
+    border-right: 4px solid black;
+    padding: 10px;
+    padding-left: 25px;
+}
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:29ch;
+    }
+}
+
 
 #ptec1{
     color:purple;
@@ -63,6 +75,7 @@ div p {
     padding:none;
     text-align: center;
     border-bottom: 1px solid #000;
+    color:black;
 }
 
 .slider{

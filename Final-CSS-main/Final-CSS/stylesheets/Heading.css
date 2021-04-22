@@ -12,6 +12,11 @@ nav a {
   text-decoration: none;
 }
 
+nav{
+  display: flex;
+  align-items: center;
+}
+
 nav a:hover, nav a:focus{
   background-color: whitesmoke;
   color:black;
@@ -25,11 +30,18 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: black;
 }
 
 h1 {
   margin-left: 30px;
+  color:white;
 }
 
 nav li:hover, nav li:focus {
@@ -37,4 +49,9 @@ nav li:hover, nav li:focus {
 }
 nav li{
   transition-duration: 0.5s;
+}
+
+#header-text{
+  color: rgb(106,166,234);
+  font-weight: bold;
 }
