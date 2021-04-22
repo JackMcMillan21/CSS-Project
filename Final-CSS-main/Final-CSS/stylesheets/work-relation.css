@@ -3,7 +3,7 @@
     margin-top: 7%;
     margin-left:40px;
     margin-right:40px;
-    height:1300px;
+    height:1400px;
     width:95vw;
 }
 .centerContainer h1{
@@ -20,6 +20,43 @@
     font-size: 22;
     text-indent:30px;
 }
+.line-1-pic{
+    position: relative;
+    height: 310px;
+    width: 400px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+.top{
+    position: relative;
+    height: 310px;
+    width: 400px;
+    float:right;
+    margin-top: -50px;
+}
+
+.bottom{
+    position: relative;
+    height: 310px;
+    width: 400px;
+    float:right;
+    margin-top: -50px;
+}
+
+.line-1-pic img{
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.line-1-pic img.top:hover {
+    opacity:0;
+}
+
 .line-2{
     height: 300px;
     width: 820px;
@@ -27,20 +64,36 @@
     padding-left: 80px;
     font-size: 22;
     text-indent:30px;
+    margin-right:20px;
 }
+.line-2-pic{
+    position: relative;
+    height: 310px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: -10px;
+    float: left;
+    background:url(../images/FFpic.3.PNG);
+}
+
 .line-3{
     height: 300px;
     width: 820px;
-    float:left;
     padding-left: 80px;
     font-size: 22;
     text-indent:30px;
+    margin-right:20px;
+    margin-top: 20px;
+
 }
-.line-4{
-    height: 300px;
-    width: 820px;
+.line-3-pic{
+    position: relative;
+    height: 310px;
+    width: 500px;
     float:right;
-    padding-left: 80px;
-    font-size: 22;
-    text-indent:30px;
+    margin-top: -10px;
+    background:url(../images/FFpic.4.PNG);
 }
+
+
+
