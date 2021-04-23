@@ -38,8 +38,10 @@ div p {
     height:680px;
     width:100vw;
     margin-left:-10px;
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
+    min-height: 680px;
+
 }
 #centerContainerText{
     position: absolute;
@@ -84,10 +86,14 @@ div p {
     width:1000px;
     height: 670px;
     background:url(../images/Image.1.png);
-    animation: slide 30s infinite;
+    animation: slide 30s infinite ease-in-out;
     float: right;
     margin-right:15px;
     margin-top:15px;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -o-transition: ease-in-out;
+    transition: ease-in-out;
 }
 
 @keyframes slide{

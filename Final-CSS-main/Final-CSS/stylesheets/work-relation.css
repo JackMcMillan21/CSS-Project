@@ -1,5 +1,5 @@
 #title{
-margin-top:6%;
+margin-top:5%;
 }
 #center-container{
     display:flex;
@@ -37,4 +37,37 @@ img{
 p{
     text-indent: 30px;
     font-size: 21;
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    padding: 5px;
 }
+#image-2-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-24%, -295%);
+    color:black;
+    text-indent: none;
+    width:70%;
+}
+
+#cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }

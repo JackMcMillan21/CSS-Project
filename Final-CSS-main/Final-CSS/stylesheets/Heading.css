@@ -10,6 +10,7 @@ nav a {
   background-color: black;
   color: whitesmoke;
   text-decoration: none;
+  height:34px;
 }
 
 nav{
@@ -37,6 +38,7 @@ header {
   z-index: 2;
   width: 100%;
   background-color: black;
+  height: 80px;
 }
 
 
