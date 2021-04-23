@@ -1,99 +1,40 @@
-.centerContainer {
+#title{
+margin-top:6%;
+}
+#center-container{
+    display:flex;
     background-color: ghostwhite;
-    margin-top: 7%;
-    margin-left:40px;
-    margin-right:40px;
-    height:1400px;
-    width:95vw;
+    padding:50px;
 }
-.centerContainer h1{
-    font-weight: bold;
-    color:black;
-    padding-top: 20px;
-    font-size: 44;
+img{
+    height:100%;
+    margin-left: 25%;
 }
-.line-1{
-    height: 300px;
-    width: 820px;
-    float:left;
-    padding-left: 80px;
-    font-size: 22;
-    text-indent:30px;
+#left-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
 }
-.line-1-pic{
-    position: relative;
-    height: 310px;
-    width: 400px;
-    float:right;
-    margin-right: 100px;
-    margin-top: -10px;
+#right-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
 }
-.top{
-    position: relative;
-    height: 310px;
-    width: 400px;
-    float:right;
-    margin-top: -50px;
+#left-box div{
+    height: 25%;
+    justify-self: center;
 }
-
-.bottom{
-    position: relative;
-    height: 310px;
-    width: 400px;
-    float:right;
-    margin-top: -50px;
+#right-box div{
+    height: 25%;
+    justify-self: center;
 }
-
-.line-1-pic img{
-    position:absolute;
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+#image-2{
+    width: 46.2%;
 }
-
-.line-1-pic img.top:hover {
-    opacity:0;
+#lift-text{
+    margin-top: -2%;
 }
-
-.line-2{
-    height: 300px;
-    width: 820px;
-    float:right;
-    padding-left: 80px;
-    font-size: 22;
-    text-indent:30px;
-    margin-right:20px;
+p{
+    text-indent: 30px;
+    font-size: 21;
 }
-.line-2-pic{
-    position: relative;
-    height: 310px;
-    width: 500px;
-    margin-left: 100px;
-    margin-top: -10px;
-    float: left;
-    background:url(../images/FFpic.3.PNG);
-}
-
-.line-3{
-    height: 300px;
-    width: 820px;
-    padding-left: 80px;
-    font-size: 22;
-    text-indent:30px;
-    margin-right:20px;
-    margin-top: 20px;
-
-}
-.line-3-pic{
-    position: relative;
-    height: 310px;
-    width: 500px;
-    float:right;
-    margin-top: -10px;
-    background:url(../images/FFpic.4.PNG);
-}
-
-
-

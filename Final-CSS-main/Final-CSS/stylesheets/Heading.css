@@ -39,10 +39,6 @@ header {
   background-color: black;
 }
 
-h1 {
-  margin-left: 30px;
-  color:white;
-}
 
 nav li:hover, nav li:focus {
   transform: translateY(-5px) scale(1.1);
@@ -54,4 +50,5 @@ nav li{
 #header-text{
   color: rgb(106,166,234);
   font-weight: bold;
+  margin-left: 30px;
 }
