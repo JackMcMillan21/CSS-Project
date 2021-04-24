@@ -1,8 +1,10 @@
+/* This portion of code just makes it so there are no points in front of the list item in my nav. */
 ul {
   list-style: none;
 }
 
-
+/* This portion of code is just some styling for the navigation squares at the top right of the square inclduing padding to make 
+it center in the square and then color decoration.*/
 nav a {
   padding: 5px;
   margin: 4px;
@@ -13,21 +15,27 @@ nav a {
   height:34px;
 }
 
+/* This portion of codeis just a container that holds my list elements in the top right of the screen, I use flexbox and align 
+items ceneter to ceneter them on the y axis within the container. */
 nav{
   display: flex;
   align-items: center;
 }
 
+/* This portion of code just makes it so that when you hover, or tab over the nav elements there background and border changes so that you can tell that you are selecting them. */
 nav a:hover, nav a:focus{
   background-color: whitesmoke;
   color:black;
   border-color: black;
 }
 
+/* This portion of code is just setting the background to a gradient from top left to bottom right using 3 diffrent colours. */
 body {
   background-image: linear-gradient(to bottom right, #2f4f4f, #422f4f, #23395d);
 }
-
+/* This portion of code is very important and it is most of the positioning of the header at the top of the page, I use flexbox to space all of the content evenly apart
+I also use align-items so that the content is center on the y axis. I also make the position fixed and the z index 2 so that when your scroll down the page you can 
+still see the navbar no matter where you are on the page, lastly, I just set the background colour to be black and the navigation bar to  be 80px.  */
 header {
   display: flex;
   justify-content: space-between;
@@ -41,14 +49,17 @@ header {
   height: 80px;
 }
 
-
+/* This portion of code is used so that when you hover or focus over the nav elements they increase in size and move up slightly to make an effect of them coming towards
+your face. */
 nav li:hover, nav li:focus {
   transform: translateY(-5px) scale(1.1);
 }
+/* This portion of code just sets the duration of the transition I stated previously. */
 nav li{
   transition-duration: 0.5s;
 }
 
+/* This portion of code is just some styling of the te4xt in the top left hand side of the screen that says Jack McMillan. */
 #header-text{
   color: rgb(106,166,234);
   font-weight: bold;

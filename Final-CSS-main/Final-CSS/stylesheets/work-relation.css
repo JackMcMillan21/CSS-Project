@@ -1,39 +1,57 @@
+/* This portion of code is used to style a container so that there is a space in between the nav bar and the center container.*/
 #title{
 margin-top:5%;
 }
+
+/* This portion of code uses flex box to seperate the container into two diffrent sides so that the content can be beside one another and not stacked ontop of eachother, 
+I also use padding to make a good amount of whitespace around the content inside of this container.*/
 #center-container{
     display:flex;
     background-color: ghostwhite;
-    padding:50px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:60px;
+    padding-bottom:40px;
 }
+
+/* This portion of code is used to define the size of the images and to also apply a margin to the left of each of the images so that they are centered where they need to be.*/
 img{
     height:100%;
     margin-left: 25%;
 }
+
+/* This portion of code uses flexbox to put the content into columns so that it can be seperated from left to right.*/
 #left-box{
     flex-direction: column;
     display: flex;
-    justify-content: space-evenly;
 }
+
+/* This portion of code uses flexbox to put the content into columns so that it can be seperated from left to right.*/
 #right-box{
     flex-direction: column;
     display: flex;
-    justify-content: space-evenly;
 }
+
+/* This portion of code is used to change the size of the 3d modelling project 1 photo so that it is bigger, the code also makes it so that it is centered within the div.*/
 #left-box div{
     height: 25%;
     justify-self: center;
 }
+
+/* This portion of code is used to change the size of the Final game assessment and the 3d modelling project 2 photo's so that they are larger, the code also makes it so 
+that it is centered within the div.*/
 #right-box div{
     height: 25%;
     justify-self: center;
 }
-#image-2{
-    width: 46.2%;
-}
+
+/* This portion of code is used to pull the Lift certificate heading closer to the textbox so that they match the rest of the styling.*/
 #lift-text{
-    margin-top: -2%;
+    margin-top: -0.6%;
 }
+
+/* This portion of code is used to style all of the paragraphs on this page by adding text indents, changing the font size to make it all the time, adding a border around all of 
+the paragraphs, and then finally adding a padding within that border so that it isnt hugged up so close to the text.*/
 p{
     text-indent: 30px;
     font-size: 21;
@@ -42,6 +60,8 @@ p{
     border-color: black;
     padding: 5px;
 }
+
+/* This portion of code is used to position the text that above the second image relating to Final Game Assessment and also defines the size of the div.*/
 #image-2-text{
     position:absolute;
     top: 50%;
@@ -52,6 +72,7 @@ p{
     width:70%;
 }
 
+/* This portion of code is used to define the dimensions of the container that contains the 2 images it also sets the position to relative based on the things acting on it.*/
 #cf {
     position:relative;
     height:281px;
@@ -59,6 +80,8 @@ p{
     margin:0 auto;
   }
   
+  /* This portion of code is used to make it so that the images are positioned on top of one another and arent effected by being 2 diffrent images, it also uses webkits
+  to make it compatible with browsers that may not support the transition.*/
   #cf img {
     position:absolute;
     left:0;
@@ -67,7 +90,7 @@ p{
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
   }
-  
+    /* This portion of code is used to make it so that when you hover your cursor over the image the opacity becomes 0 and you can see the image that is under it.*/
   #cf img.top:hover {
     opacity:0;
   }
