@@ -1,6 +1,6 @@
 /* This portion of code is used to style a container so that there is a space in between the nav bar and the center container.*/
 #title{
-margin-top:5%;
+margin-top:6%;
 }
 
 /* This portion of code uses flex box to seperate the container into two diffrent sides so that the content can be beside one another and not stacked ontop of eachother, 
@@ -17,7 +17,6 @@ I also use padding to make a good amount of whitespace around the content inside
 /* This portion of code is used to define the size of the images and to also apply a margin to the left of each of the images so that they are centered where they need to be.*/
 img{
     height:100%;
-    margin-left: 25%;
 }
 
 /* This portion of code uses flexbox to put the content into columns so that it can be seperated from left to right.*/
@@ -45,6 +44,11 @@ that it is centered within the div.*/
     justify-self: center;
 }
 
+#right-box img{
+    display:flex;
+    justify-self: center;
+}
+
 /* This portion of code is used to pull the Lift certificate heading closer to the textbox so that they match the rest of the styling.*/
 #lift-text{
     margin-top: -0.6%;
@@ -54,7 +58,7 @@ that it is centered within the div.*/
 the paragraphs, and then finally adding a padding within that border so that it isnt hugged up so close to the text.*/
 p{
     text-indent: 30px;
-    font-size: 21;
+    font-size: 18;
     border-style: groove;
     border-width: 3px;
     border-color: black;
@@ -66,7 +70,7 @@ p{
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-24%, -295%);
+    transform: translate(-50%, -295%);
     color:black;
     text-indent: none;
     width:70%;
@@ -77,8 +81,10 @@ p{
 #cf {
     position:relative;
     height:281px;
-    width:450px;
+    width:400px;
     margin:0 auto;
+    display: flex;
+    justify-content: center;
   }
   
   /* This portion of code is used to make it so that the images are positioned on top of one another and arent effected by being 2 diffrent images, it also uses webkits
@@ -96,6 +102,12 @@ p{
     opacity:0;
   }
 
-  #image-4{
-      padding-left: 15%;
-  }
+#image-4{
+    display:flex;
+    justify-content: center;
+}
+
+#image-1{
+    display: flex;
+    justify-content: center;
+}

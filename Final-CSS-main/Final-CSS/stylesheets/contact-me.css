@@ -3,7 +3,7 @@
 main{
     display:flex;
     justify-content: center;
-    height:48vw;
+    height:auto;
     width: auto;
 }
 

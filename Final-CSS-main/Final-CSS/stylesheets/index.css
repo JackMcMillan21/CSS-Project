@@ -7,6 +7,7 @@ edges of the container, I declare the dimensions of the container using px and v
     margin-right:40px;
     height:700px;
     width:95vw;
+    display:-webkit-flex;
     display:flex;
     justify-content: space-evenly;
     padding-left:15px;
