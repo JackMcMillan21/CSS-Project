@@ -5,20 +5,23 @@ edges of the container, I declare the dimensions of the container using px and v
     margin-top: 2%;
     margin-left:20px;
     margin-right:40px;
-    height:700px;
+    /* height:700px; */
     width:95vw;
     display:-webkit-flex;
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
     padding-left:15px;
 }
 
 /* This portion of code  is used to style a second container that holds all of the text on the left hand side of .second-container I float it left so that the slideshow can be on the
 right.*/
 .info-portion{
-    height: 700px;
-    width: 570px;
-    float:left;
+    /* height: 700px;
+    width: 570px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 30%;
 }
 
 /* This portion of code is just used to style the heading inside of the info portion container, I change the font, spacing between the letters, and the margin is used to center
@@ -108,16 +111,18 @@ it will go on for an infinite amouint of time while easing in and out of the pho
 and it doesn't look crammed. */
 .slider{
     width:1000px;
-    height: 670px;
+    min-height: 760px;
     background:url(../images/Image.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     animation: slide 30s infinite ease-in-out;
-    float: right;
     margin-right:15px;
     margin-top:15px;
     -webkit-transition: ease-in-out;
     -moz-transition: ease-in-out;
     -o-transition: ease-in-out;
     transition: ease-in-out;
+    flex: 67%;
 }
 
 /* This portion of code is used to define what is going to change about the slider container at what percentage of the animation, so if the animation is 30 seconds long then
@@ -125,26 +130,42 @@ at 50% we know that the animation would be on image.4. */
 @keyframes slide{
     12.5%{
         background:url(../images/Image.1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     25%{
         background:url(../images/image.2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     37.5%{
         background:url(../images/image.3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     50%{
         background:url(../images/image.4.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     62.5%{
         background:url(../images/image.5.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     75%{
         background:url(../images/image.6.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     87.5%{
         background:url(../images/image.7.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     100%{
         background:url(../images/image.8.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
