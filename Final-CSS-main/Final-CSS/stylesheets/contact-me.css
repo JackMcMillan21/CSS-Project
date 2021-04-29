@@ -1,5 +1,5 @@
-  /* This portion of code is used to make all of the content within the main container centered in the middle of the page, I also make the height 48 view width so that it is fitted 
-  perfectly on the Y axis.*/
+  /* This portion of code is used to make all of the content within the main container centered in the middle of the page, I also make the height auto to adjust depending on the
+  size of the users screen*/
 main{
     display:flex;
     justify-content: center;
@@ -21,14 +21,14 @@ main{
 }
 
   /* This portion of code is adds padding on the left and right to add a proper amount of white space on both sides and not making the content crammed, flex basis
-  is used to make the dimensions take up 60% of the main flex box.*/
+  is used to make the dimensions take up a minimum width of 60% of the container.*/
 .contact-left{
     flex-basis:60%;
     padding: 40px 60px;
 }
 
-  /* This portion of code is used to set the background color and set the text color to white it also uses flex basis to keep the propertys of the box take up 60% of the
-  main container. */
+  /* This portion of code is used to set the background color and set the text color to white it also uses flex basis to make the dimensions take up a minimum width 
+  of 60% of the container */
 .contact-right{
     flex-basis:60%;
     padding: 40px;
@@ -46,15 +46,14 @@ h2{
     margin-bottom:10px;
 }
 
-  /* This portion of code is uses flexbox to center the rows within the container and also space the rows evenly apart from eachother while also makign a space between the rows on
-  the Y axis by using margin.*/
+  /* This portion of code is uses flexbox to center the rows within the container and also space the rows evenly apart from eachother.*/
 .input-row{
     display:flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-  /* This portion of code is used to make the rows only take up 45% of the container so that they rows are spaced evenly apart. */
+  /* This portion of code is uses flex basis is to make the dimensions take up a minimum width of 45% of the container */
 .input-row .input-group{
     flex-basis:45%;
 }

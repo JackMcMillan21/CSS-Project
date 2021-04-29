@@ -34,7 +34,7 @@ body {
   background-image: linear-gradient(to bottom right, #2f4f4f, #422f4f, #23395d);
 }
 /* This portion of code is very important and it is most of the positioning of the header at the top of the page, I use flexbox to space all of the content evenly apart
-I also use align-items so that the content is center on the y axis. I also make the position fixed and the z index 2 so that when your scroll down the page you can 
+I also use align-items so that the content is centered in the middle of the page. I also make the position fixed and the z index 2 so that when your scroll down the page you can 
 still see the navbar no matter where you are on the page, lastly, I just set the background colour to be black and the navigation bar to  be 80px.  */
 header {
   display: flex;
