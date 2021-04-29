@@ -5,7 +5,6 @@ edges of the container, I declare the dimensions of the container using px and v
     margin-top: 2%;
     margin-left:20px;
     margin-right:40px;
-    /* height:700px; */
     width:95vw;
     display:-webkit-flex;
     display:flex;
@@ -129,6 +128,9 @@ and it doesn't look crammed. */
 at 50% we know that the animation would be on image.4. */
 @keyframes slide{
     12.5%{
+        /* This portion of code is used to change the background at a certain point of the animation and I also make it so the image cant be repeated if someones screen size
+        is larger then the image size, so it wont be duplicated to the right of the image, and I set the background size to contain in the background. This repeats for all of the 
+        portions of the animations */
         background:url(../images/Image.1.png);
         background-repeat: no-repeat;
         background-size: contain;

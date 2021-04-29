@@ -44,6 +44,7 @@ that it is centered within the div.*/
     justify-self: center;
 }
 
+/* This portion of code is uses flexbox to center itself in the middle of the container that it is in*/
 #right-box img{
     display:flex;
     justify-self: center;
@@ -103,11 +104,13 @@ p{
     opacity:0;
   }
 
+  /* This portion of code is uses flexbox to center the content in the middle of the container. */
 #image-4{
     display:flex;
     justify-content: center;
 }
 
+/* This portion of code is uses flexbox to center the content in the middle of the container. */
 #image-1{
     display: flex;
     justify-content: center;
