@@ -1,0 +1,147 @@
+  /* This portion of code is used to make all of the content within the main container centered in the middle of the page, I also make the height auto to adjust depending on the
+  size of the users screen*/
+main{
+    display:flex;
+    justify-content: center;
+    height:auto;
+    width: auto;
+}
+
+  /* This portion of code so that there is white space around the top using margin and then only setting the width to 80% also makes white space on the left and right.*/
+.container{
+    margin-top: 3.5%;
+    width:80%;
+    margin: 50px, auto;
+}
+
+  /* This portion of code is used to background of white and a display of flex which makes the sub containers able to use flexbox and be centered properly.*/
+.contact-box{
+    background: #fff;
+    display:flex;
+}
+
+  /* This portion of code is adds padding on the left and right to add a proper amount of white space on both sides and not making the content crammed, flex basis
+  is used to make the dimensions take up a minimum width of 60% of the container.*/
+.contact-left{
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+
+  /* This portion of code is used to set the background color and set the text color to white it also uses flex basis to make the dimensions take up a minimum width 
+  of 60% of the container */
+.contact-right{
+    flex-basis:60%;
+    padding: 40px;
+    background: #1c00b5;
+    color:white;
+}
+
+  /* This portion of code is just used to remove margin at the bottom of the heading at the top of the page.*/
+h2{
+    margin-bottom:-10px;
+    color: lightgray;
+}
+
+  /* This portion of code is used to make a space between the small describing text above the container and the container.*/
+.container p{
+    margin-bottom:10px;
+}
+
+  /* This portion of code is uses flexbox to center the rows within the container and also space the rows evenly apart from eachother.*/
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+  /* This portion of code is uses flex basis is to make the dimensions take up a minimum width of 45% of the container */
+.input-row .input-group{
+    flex-basis:45%;
+}
+
+  /* This portion of code is used to style the input boxes so that they dont have any bordwe but on the bottom so that they seem like they have a line on the bottom I 
+  also have padding on the bottom so that they rows are seperated more evenly, lastly I have width set to 100 so that the line extends longer to where someone still might
+  put in there information.*/
+input{
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+
+  /* This portion of code is used to style the text area by adding a border around it, by making it so that there is no outline, there is a padding a 10px so the placeholder
+  isnt touching the border.*/
+.textarea{
+    border:1px solid #ccc;
+    outline:none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+  /* This portion of code is used to style all of the labels by adding a margin of 6px so it isn't touching the iput container ever, and making it a block element so that the 
+  input container can be easily seperated.*/
+label{
+    margin-bottom: 4px;
+    display:block;
+    color: #1c00b5;
+}
+
+  /* This portion of code is used to style the submit button at the bottom of the page by setting the dimensions and shape and also adding a very faint shadow under the button.*/
+button{
+    background:#1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.4);
+    margin-top: 10px;
+}
+
+  /* This portion of code is used to style the heading in the left container so that it is the color specified and so that there is an even amount of space between it and the first 
+  and the first label/input value.*/
+.contact-left h3{
+    color:#1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+  /* This portion of code is used to style the heading on the right container so that the text is the color specified and also so that the font weight stands out on the background.*/
+.contact-right h1{
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+  /* This portion of code is used to add space between the address label and the actual address information itself.*/
+tr td:first-child{
+    padding-right: 20px;
+}
+
+  /* This portion of code is used to make space in between the reach me data on each line by using padding.*/
+tr td{
+    padding-top: 20px;
+}
+
+  /* This portion of code is used to make the text area have a default size of whatever the size of the container is.*/
+#message-center{
+    display:flex;
+    flex-direction: column;
+}
+
+  /* This portion of code is used to make all of the content bigger on the screen by just zooming it in.*/
+.container{
+    zoom: 1.5;
+    height:auto;
+}
+
+  /* This portion of code is just sets the color of the text in the data cells to white.*/
+td{
+    color: #fff;
+}
+
+p{
+  color: lightgray;
+}
